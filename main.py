@@ -161,13 +161,13 @@ class Dashboard(FloatLayout):
 
         # RPM
         self.rpm = Gauge(file_gauge="gauge512.png", do_rotation=False, do_scale=False, do_translation=False, value=0,
-                         size_gauge=512, pos=(72, -16))
+                         size_gauge=512, pos=(1400, 333))
         self.add_widget(self.rpm)
         self.rpm.value = 1
 
  # RPM -2 
         self.rpm = Gauge(file_gauge="gauge512.png", do_rotation=False, do_scale=False, do_translation=False, value=0,
-                         size_gauge=512, pos=(0,0))
+                         size_gauge=512, pos=(100,333))
         self.add_widget(self.rpm)
         self.rpm.value = 1
 
